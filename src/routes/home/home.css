@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 100px;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.task-item {
+  width: 300px;
+  background-color: cadetblue;
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-item > span:nth-child(1) {
+  /* width: 90%; */
+}
